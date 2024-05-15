@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dde0e7;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+/* Login Box */
+.login-box {
+    width: 25%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-image: url(./image/login.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Image Section */
+.image-section {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    width: 15rem;
+}
+
+/* Form Section */
+.form-section {
+    padding: 1rem;
+    background-color: #f1f5f9;
+    border-radius: 0 20% 7px 7px;
+}
+
+.form-section2 {
+    padding: 1rem;
+    background-color: #f1f5f9;
+    border-radius: 20% 7px 7px 7px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    color: #718096;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.label {
+    display: block;
+    color: #4a5568;
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.input {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.25rem;
+    color: #4a5568;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.button {
+    width: 100%;
+    background-color: #1a202c;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #171923;
+}
+
+.register-text {
+    text-align: center;
+    color: #718096;
+    margin-top: 1rem;
+}
+
+.register-link {
+    color: #3182ce;
+}
