@@ -1,3 +1,21 @@
+<?php
+session_start();
+
+// Verificar si hay una sesión activa
+if (isset($_SESSION['usuario'])) {
+    // Verificar si la sesión activa es válida (por ejemplo, haciendo una consulta a la base de datos)
+    include("funciones/conexion.php"); // Asegúrate de tener la conexión a la base de datos aquí
+    $usuario = $_SESSION['usuario'];
+    $consulta = mysqli_query($conexion, "SELECT * FROM usuario WHERE usuario='$usuario'");
+
+    // Si la consulta es exitosa y el usuario existe, redirige a la página principal
+    if (mysqli_num_rows($consulta) > 0) {
+        header("location: home.php");
+        exit();
+    } 
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +23,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 
 <body>
