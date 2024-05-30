@@ -1,6 +1,15 @@
 <?php
 
-$conexion = new mysqli('localhost', 'root', '', 'barberApp');
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "barberapp";
 
+// Crear conexión
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-$conexion->set_charset("utf8");
+// Verificar conexión
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+

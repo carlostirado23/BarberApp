@@ -359,28 +359,9 @@
         </div>
       </div>
       <!-- RD Navbar-->
-      <div class="rd-navbar-wrap">
-        <nav class="rd-navbar rd-navbar-default" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-sidebar" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-sidebar" data-stick-up-clone="false">
-          <div class="rd-navbar-inner">
-            <div class="rd-navbar-panel">
-              <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-              <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="images/logo-default-dark-200x36.png" alt="" width="200" height="36" /></a></div>
-            </div>
-            <div class="rd-navbar-nav-wrap">
-              <div class="rd-navbar-nav-inner">
-                <ul class="rd-navbar-nav">
-                  <li><a href="home.php">Inicio</a></li>
-                  <li><a href="services.php">Servicios</a></li>
-                  <li class="active"><a href="services.html">Baberos</a></li>
-                  <li><a href="blog.html">Citas</a></li>
-                  <li><a href="shop.html">Productos</a></li>
-                  <li><a href="#">perfil</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div>
+      <?php
+      include_once("views/navbar.php");
+      ?>
     </main>
   </div>
   <script src="js/core.min.js"></script>

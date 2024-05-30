@@ -10,7 +10,7 @@ $fecha_nacimiento = $_POST['fecha_nacimiento'];
 $hashed_password = substr(hash_hmac('sha256', $clave, 'secret-key'), 0, 40);
 
 // Validar si el usuario ya existe
-$validar = mysqli_query($conexion, "SELECT * FROM usuario WHERE usuario='$usuario'");
+$validar = mysqli_query($conn, "SELECT * FROM usuario WHERE usuario='$usuario'");
 if (mysqli_num_rows($validar) > 0) {
   echo '<html><head><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script></head><body>';
   echo '<script>
@@ -30,7 +30,7 @@ if (mysqli_num_rows($validar) > 0) {
 
 // Insertar nuevo usuario con contraseña hasheada
 $query = "INSERT INTO usuario(nombre, usuario, clave, fecha_nacimiento) VALUES('$nombre', '$usuario', '$hashed_password', '$fecha_nacimiento')";
-$ejecutar = mysqli_query($conexion, $query);
+$ejecutar = mysqli_query($conn, $query);
 
 if ($ejecutar) {
   echo '<html><head><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script></head><body>';
@@ -62,4 +62,4 @@ if ($ejecutar) {
   echo '</body></html>';
 }
 
-mysqli_close($conexion);
+mysqli_close($conn);

@@ -10,7 +10,7 @@ $clave = $_POST['clave'];
 $hashed_password = substr(hash_hmac('sha256', $clave, 'secret-key'), 0, 40);
 
 // Validar el usuario y la contraseña
-$validar = mysqli_query($conexion, "SELECT * FROM usuario WHERE usuario='$usuario' AND clave='$hashed_password'");
+$validar = mysqli_query($conn, "SELECT * FROM usuario WHERE usuario='$usuario' AND clave='$hashed_password'");
 if (mysqli_num_rows($validar) > 0) {
   $_SESSION['usuario'] = $usuario;
     echo '<html><head><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script></head><body>';
@@ -42,4 +42,4 @@ if (mysqli_num_rows($validar) > 0) {
     echo '</body></html>';
 }
 
-mysqli_close($conexion);
+mysqli_close($conn);

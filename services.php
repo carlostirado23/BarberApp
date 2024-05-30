@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <!--  -->
     <div class="page">
         <main class="page-content" id="perspective">
             <div class="content-wrapper">
@@ -61,7 +62,7 @@
                                                 <p class="card-service-price">
                                                     <small>$</small>8.<small>000</small>
                                                 </p>
-                                                <a class="btn btn-sm card-service-control" href="step-1.html">RESERVAR AHORA</a>
+                                                <a class="btn btn-sm card-service-control" href="step-1.php">RESERVAR AHORA</a>
                                             </article>
                                         </div>
                                         <div class="cell-xs-6 cell-md-3">
@@ -71,7 +72,7 @@
                                                 <p class="card-service-price">
                                                     <small>$</small>4.<small>000</small>
                                                 </p>
-                                                <a class="btn btn-sm card-service-control" href="step-1.html">RESERVAR AHORA</a>
+                                                <a class="btn btn-sm card-service-control" href="step-1.php">RESERVAR AHORA</a>
                                             </article>
                                         </div>
                                         <div class="cell-xs-6 cell-md-3">
@@ -81,7 +82,7 @@
                                                 <p class="card-service-price">
                                                     <small>$</small>12.<small>000</small>
                                                 </p>
-                                                <a class="btn btn-sm card-service-control" href="step-1.html">Book Now</a>
+                                                <a class="btn btn-sm card-service-control" href="step-1.php">Book Now</a>
                                             </article>
                                         </div>
                                         <div class="cell-xs-6 cell-md-3">
@@ -91,7 +92,7 @@
                                                 <p class="card-service-price">
                                                     <small>$</small>4.<small>000</small>
                                                 </p>
-                                                <a class="btn btn-sm card-service-control" href="step-1.html">RESERVAR AHORA</a>
+                                                <a class="btn btn-sm card-service-control" href="step-1.php">RESERVAR AHORA</a>
                                             </article>
                                         </div>
                                         <div class="cell-xs-6 cell-md-3">
@@ -101,7 +102,7 @@
                                                 <p class="card-service-price">
                                                     <small>$</small>4.<small>000</small>
                                                 </p>
-                                                <a class="btn btn-sm card-service-control" href="step-1.html">RESERVAR AHORA</a>
+                                                <a class="btn btn-sm card-service-control" href="step-1.php">RESERVAR AHORA</a>
                                             </article>
                                         </div>
                                     </div>
@@ -110,71 +111,17 @@
                         </div>
                     </section>
 
-                    <footer class="page-footer page-footer-default">
-                        <div class="shell">
-                            <div class="range range-xs-center">
-                                <div class="cell-lg-10">
-                                    <a class="brand" href="index.html"><img src="image/barberAppMobile.png" alt="" width="200" height="100" /></a>
-                                    <div class="text-highlighted-wrap">
-                                        <p class="text-highlighted">
-                                            Retro Barbershop es el lugar número uno para cortarse el pelo a los hombres
-                                            en Monteria. Aquí puede obtener una experiencia de barbería de lujo
-                                            a un precio razonable.
-                                        </p>
-                                    </div>
-                                    <ul class="footer-navigation footer-navigation-horizontal">
-                                        <li><a href="home.php">Inicio</a></li>
-                                        <li class="active"><a href="services.php">Servicios</a></li>
-                                        <li><a href="services.html">Baberos</a></li>
-                                        <li><a href="blog.html">Citas</a></li>
-                                        <li><a href="shop.html">Productos</a></li>
-                                        <li><a href="#">perfil</a></li>
-                                    </ul>
-                                    <div class="divider divider-small divider-light block-centered"></div>
-                                    <ul class="inline-list inline-list-md">
-                                        <li><a class="icon icon-xs link-gray-base" href="#"><i class='bx bxl-facebook-circle' style="font-size: 20px;"></i></a></li>
-                                        <li><a class="icon icon-xs link-gray-base " href="#"><i class='bx bxl-twitter' style="font-size: 20px;"></i></a></li>
-                                        <li><a class="icon icon-xs link-gray-base" href="#"> <i class='bx bxl-linkedin' style="font-size: 20px;"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </footer>
+                    <!-- footer -->
+                    <?php
+                    include_once("views/footer.php");
+                    ?>
                 </div>
                 <div id="perspective-content-overlay"></div>
             </div>
             <!-- RD Navbar-->
-            <div class="rd-navbar-wrap">
-                <nav class="rd-navbar rd-navbar-default" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-sidebar" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-sidebar" data-stick-up-clone="false">
-                    <div class="rd-navbar-inner">
-                        <div class="rd-navbar-panel">
-                            <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap">
-                                <span></span>
-                            </button>
-                            <div class="rd-navbar-brand">
-                                <a class="brand-name" href="index.html"><img src="image/barberAppMobile.png" alt="" width="200" height="100" /></a>
-                            </div>
-                        </div>
-                        <div class="rd-navbar-nav-wrap">
-                            <div class="rd-navbar-nav-inner">
-                                <ul class="rd-navbar-nav">
-                                    <li><a href="home.php">Inicio</a></li>
-                                    <li class="active"><a href="services.php">Servicios</a></li>
-                                    <li><a href="services.html">Baberos</a></li>
-                                    <li><a href="blog.html">Citas</a></li>
-                                    <li><a href="shop.html">Productos</a></li>
-                                    <li><a href="#">perfil</a></li>
-                                </ul>
-                                <div class="rd-navbar-nav-footer">
-                                </div>
-                                <div class="rd-navbar-secondary">
-                                    <a class="btn btn-xs btn-circle btn-primary" href="step-1.html">BOOK NOW</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
+            <?php
+            include_once("views/navbar.php");
+            ?>
         </main>
     </div>
 

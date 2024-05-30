@@ -13,12 +13,11 @@ if (!isset($_SESSION['usuario'])) {
 
 <head>
     <!-- Site Title-->
-    <title>Home</title>
+    <title>BarberApp</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <!-- <link rel="icon" href="image/favicon.ico" type="image/x-icon"> -->
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto+Mono:300,300italic,400,700%7CArvo:400,700">
     <link rel="stylesheet" href="css/style.css">
@@ -56,8 +55,8 @@ if (!isset($_SESSION['usuario'])) {
                                     <li class="active"><a href="home.php">Inicio</a></li>
                                     <li><a href="services.php">Servicios</a></li>
                                     <li><a href="barbers.php">Baberos</a></li>
-                                    <li><a href="blog.html">Citas</a></li>
-                                    <li><a href="#">Productos</a></li>
+                                    <li><a href="step-1.php">Citas</a></li>
+                                    <li><a href="shop.php">Productos</a></li>
                                     <li><a href="./funciones/cerrarSesion.php">perfil</a></li>
                                 </ul>
                             </div>
