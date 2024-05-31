@@ -25,7 +25,7 @@
                     </div>
                     <div class="page-header-right">
                         <div class="booking-control">
-                            <a class="btn btn-xs btn-circle btn-primary" href="step-1.html">RESERVAR AHORA</a>
+                            <a class="btn btn-xs btn-circle btn-primary" href="step-1.php">RESERVAR AHORA</a>
                         </div>
                         <div id="perspective-open-menu" data-custom-toggle=".perspective-menu-toggle" data-custom-toggle-hide-on-blur="true">
                             <span class="perspective-menu-text">Menu</span>
