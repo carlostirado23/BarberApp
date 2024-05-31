@@ -38,7 +38,7 @@ $conn->close();
     <main class="page-content" id="perspective">
       <div class="content-wrapper">
         <div class="page-header page-header-perspective">
-          <div class="page-header-left"><a class="brand" href="index.html"><img src="image/barberAppMobile.png" alt="" width="200" height="100" /></a></div>
+          <div class="page-header-left"><a class="brand" href="home.php"><img src="image/barberAppMobile.png" alt="" width="200" height="100" /></a></div>
           <div class="page-header-right">
             <div id="perspective-open-menu" data-custom-toggle=".perspective-menu-toggle" data-custom-toggle-hide-on-blur="true"><span class="perspective-menu-text">Menu</span>
               <button class="perspective-menu-toggle"><span></span></button>
@@ -72,9 +72,8 @@ $conn->close();
                   <div class="cell-sm-6 cell-md-4">
                     <article class="product">
                       <input type="hidden" value="<?php echo $producto['id']; ?>">
-                      <a class="product-image" href="single-product.php?id=<?php echo $producto['id']; ?>">
                         <img src="uploads/<?php echo $producto['imagen']; ?>" alt="" width="164" height="168" />
-                      </a>
+              
                       <p class="product-title"><a href="single-product.php?id=<?php echo $producto['id']; ?>"><?php echo $producto['nombre']; ?></a></p>
                       <p name="precio" class="product-price" data-price="<?php echo $producto['precio']; ?>">$<?php echo number_format($producto['precio'], 2); ?></p>
                       <div>
@@ -88,6 +87,8 @@ $conn->close();
               </div>
             </div>
           </section>
+          <!-- Footer-->
+          <?php include_once("views/footer.php"); ?>
         </div>
         <div id="perspective-content-overlay"></div>
       </div>

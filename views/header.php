@@ -57,7 +57,8 @@ if (!isset($_SESSION['usuario'])) {
                                     <li><a href="barbers.php">Baberos</a></li>
                                     <li><a href="step-1.php">Citas</a></li>
                                     <li><a href="shop.php">Productos</a></li>
-                                    <li><a href="./funciones/cerrarSesion.php">perfil</a></li>
+                                    <li><a href="perfil.php">perfil</a></li>
+                                    <!-- ./funciones/cerrarSesion.php -->
                                 </ul>
                             </div>
                         </div>

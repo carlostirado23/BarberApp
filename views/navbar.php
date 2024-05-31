@@ -14,9 +14,8 @@
                         <li><a href="barbers.php">Baberos</a></li>
                         <li><a href="step-1.php">Citas</a></li>
                         <li><a href="shop.php">Productos</a></li>
-                        <li><a href="#">perfil</a></li>
+                        <li><a href="perfil.php">perfil</a></li>
                     </ul>
-                    <a href="./cargarImagen/index.php">?</a>
                     <div class="rd-navbar-nav-footer">
                         <ul class="inline-list inline-list-md">
                             <li><a class="icon icon-xs link-gray-base" href="#"><i class='bx bxl-facebook-circle' style="font-size: 20px;"></i></a></li>

@@ -16,7 +16,7 @@
                     <li><a href="barbers.php">Baberos</a></li>
                     <li><a href="step-1.php">Citas</a></li>
                     <li><a href="shop.php">Productos</a></li>
-                    <li><a href="#">perfil</a></li>
+                    <li><a href="perfil.php">perfil</a></li>
                 </ul>
                 <div class="divider divider-small divider-light block-centered"></div>
                 <ul class="inline-list inline-list-md">

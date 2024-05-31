@@ -281,6 +281,7 @@
                   <li><a class="icon icon-xs link-gray-base" href="#"><i class='bx bxl-facebook-circle' style="font-size: 20px;"></i></a></li>
                   <li><a class="icon icon-xs link-gray-base " href="#"><i class='bx bxl-twitter' style="font-size: 20px;"></i></a></li>
                   <li><a class="icon icon-xs link-gray-base" href="#"> <i class='bx bxl-linkedin' style="font-size: 20px;"></i></a></li>
+                  <li><a class="icon icon-xs link-gray-base" href="#"> <i class='bx bxl-whatsapp' style="font-size: 20px;"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -304,6 +305,7 @@
                   <li><a class="icon icon-xs link-gray-base" href="#"><i class='bx bxl-facebook-circle' style="font-size: 20px;"></i></a></li>
                   <li><a class="icon icon-xs link-gray-base " href="#"><i class='bx bxl-twitter' style="font-size: 20px;"></i></a></li>
                   <li><a class="icon icon-xs link-gray-base" href="#"> <i class='bx bxl-linkedin' style="font-size: 20px;"></i></a></li>
+                  <li><a class="icon icon-xs link-gray-base" href="#"> <i class='bx bxl-whatsapp' style="font-size: 20px;"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -328,6 +330,7 @@
                   <li><a class="icon icon-xs link-gray-base" href="#"><i class='bx bxl-facebook-circle' style="font-size: 20px;"></i></a></li>
                   <li><a class="icon icon-xs link-gray-base " href="#"><i class='bx bxl-twitter' style="font-size: 20px;"></i></a></li>
                   <li><a class="icon icon-xs link-gray-base" href="#"> <i class='bx bxl-linkedin' style="font-size: 20px;"></i></a></li>
+                  <li><a class="icon icon-xs link-gray-base" href="#"> <i class='bx bxl-whatsapp' style="font-size: 20px;"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -352,6 +355,7 @@
                   <li><a class="icon icon-xs link-gray-base" href="#"><i class='bx bxl-facebook-circle' style="font-size: 20px;"></i></a></li>
                   <li><a class="icon icon-xs link-gray-base " href="#"><i class='bx bxl-twitter' style="font-size: 20px;"></i></a></li>
                   <li><a class="icon icon-xs link-gray-base" href="#"> <i class='bx bxl-linkedin' style="font-size: 20px;"></i></a></li>
+                  <li><a class="icon icon-xs link-gray-base" href="#"> <i class='bx bxl-whatsapp' style="font-size: 20px;"></i></a></li>
                 </ul>
               </div>
             </div>
