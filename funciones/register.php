@@ -16,7 +16,7 @@ if (mysqli_num_rows($validar) > 0) {
   echo '<script>
             Swal.fire({
               title: "Error",
-              text: "Este correo o usuario ya está registrado, intenta con otro diferente.",
+              text: "Este usuario ya está registrado, intenta con otro diferente.",
               icon: "error"
             }).then((result) => {
               if (result.isConfirmed) {
