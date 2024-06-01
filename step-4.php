@@ -36,20 +36,20 @@
             <h2>Citas reservada</h2>
             <div class="range range-50">
               <div class="cell-xs-12 cell-md-4">
-                <article class="card-confirmation">
+                <article class="card-confirmation card-service-option-title" style="padding: 20px;">
                   <h3>Servicios seleccionados:</h3>
                   <ul id="selected-services"></ul>
                 </article>
               </div>
               <div class="cell-xs-12 cell-md-4">
-                <article class="card-confirmation">
+                <article class="card-confirmation card-service-option-title">
                   <h3>Barbero seleccionado:</h3>
                   <p id="selected-barber"></p>
                 </article>
 
               </div>
               <div class="cell-xs-12 cell-md-4">
-                <article class="card-confirmation">
+                <article class="card-confirmation card-service-option-title">
                   <h3>Fecha y Hora:</h3>
                   <p id="selected-date-time"></p>
                 </article>

@@ -51,7 +51,7 @@
                         <div class="thumbnail-option">
                           <article class="card-barber">
                             <div class="thumbnail-option-body">
-                              <input class="card-barber-title" name="barbero" value="SANCHEZ" style="border: none; width: 250px; display: block; background-color: transparent; text-align: center;">
+                              <input class="card-service-option-title" name="barbero" value="SANCHEZ" style="border: none; width: 250px; display: block; background-color: transparent; text-align: center;">
                               <div class="card-barber-panel" style="display: grid; justify-content: center;">
                                 <p class="card-barber-text">Barbero con 10 años de experiencia.</p>
                                 <button type="button" class="btn btn-xs btn-primary btn-circle" onclick="saveBarber('SANCHEZ')">Elegir</button>
@@ -64,7 +64,7 @@
                         <div class="thumbnail-option">
                           <article class="card-barber">
                             <div class="thumbnail-option-body">
-                              <input class="card-barber-title" name="barbero" value="PATTERSON" style="border: none; width: 250px; display: block; background-color: transparent; text-align: center;">
+                              <input class="card-service-option-title" name="barbero" value="PATTERSON" style="border: none; width: 250px; display: block; background-color: transparent; text-align: center;">
                               <div class="card-barber-panel" style="display: grid; justify-content: center;">
                                 <p class="card-barber-text">Especialista en cortes modernos.</p>
                                 <button type="button" class="btn btn-xs btn-primary btn-circle" onclick="saveBarber('PATTERSON')">Elegir</button>
@@ -78,8 +78,8 @@
                       <div class="cell-xs-6 cell-md-3">
                         <div class="thumbnail-option">
                           <article class="card-barber">
-                            <div class="thumbnail-option-body">
-                              <input class="card-barber-title" name="barbero" value="RICHARD" style="border: none; width: 250px; display: block; background-color: transparent; text-align: center;">
+                            <div class="thumbnail-option-body" style="color: black;">
+                              <input class="card-service-option-title" name="barbero" value="RICHARD" style="border: none; width: 250px; display: block; background-color: transparent; text-align: center; color: black;">
                               <div class="card-barber-panel" style="display: grid; justify-content: center;">
                                 <p class="card-barber-text">Experto en barbería tradicional.</p>
                                 <button type="button" class="btn btn-xs btn-primary btn-circle" onclick="saveBarber('RICHARD')">Elegir</button>
@@ -92,7 +92,7 @@
                         <div class="thumbnail-option">
                           <article class="card-barber">
                             <div class="thumbnail-option-body">
-                              <input class="card-barber-title" name="barbero" value="JONATHAN" style="border: none; width: 250px; display: block; background-color: transparent; text-align: center;">
+                              <input class="card-service-option-title" name="barbero" value="JONATHAN" style="border: none; width: 250px; display: block; background-color: transparent; text-align: center;">
                               <div class="card-barber-panel" style="display: grid; justify-content: center;">
                                 <p class="card-barber-text">Especialista en estilos clásicos.</p>
                                 <button type="button" class="btn btn-xs btn-primary btn-circle" onclick="saveBarber('JONATHAN')">Elegir</button>

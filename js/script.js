@@ -844,17 +844,25 @@ $document.ready(function () {
 
 				if ($item.is(':visible')) {
 
-					// if we have this image the first time
+					
+					/* El código verifica si el objeto `encounteredItems` no tiene una propiedad con la clave `src`.
+					Si no tiene dicha propiedad, se ejecutará el código dentro del bloque `if`. */
 					if (!encounteredItems[src]) {
-						// build the photoswipe item
+						/* El código anterior crea un objeto llamado `pswdItem` con las propiedades `src`, `w`, `h` y
+						`el`. A la propiedad `src` se le asigna el valor de la variable `src`, a la propiedad `w` se
+						le asigna el valor entero analizado de `size[0]`, a la propiedad `h` se le asigna el valor
+						entero analizado de `size[1]`, y a la propiedad `el` se le asigna el valor de la variable
+						``. */
 						pswdItem = {
 							src: src,
 							w: parseInt(size[0], 10),
 							h: parseInt(size[1], 10),
-							el: $item // save link to element for getThumbBoundsFn
+							el: $item 
 						};
 
-						// store that we already had this item
+						/* El código anterior asigna un objeto a la matriz `encounteredItems` con una clave `src`. El
+						objeto tiene dos propiedades: "elemento" al que se le asigna el valor de "pswdItem" y "índice"
+						al que se le asigna el valor de "pswpIndex". */
 						encounteredItems[src] = {
 							item: pswdItem,
 							index: pswpIndex
