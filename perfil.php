@@ -2,18 +2,6 @@
 session_start(); // Inicia la sesión si no está iniciada
 include_once("funciones/conexion.php");
 
-// Obtener productos de la base de datos
-$sql = "SELECT nombre FROM usuario WHERE id_usuario = id_usuario;"; // Aquí necesitas especificar el ID del usuario que deseas obtener
-$result = $conn->query($sql);
-
-// Verificar si se encontraron resultados y obtener el nombre del usuario
-if ($result->num_rows > 0) {
-    // Solo debería haber una fila si estás buscando por ID
-    $row = $result->fetch_assoc();
-    $nombre = $row["nombre"];
-} else {
-    $nombre = "Nombre no encontrado"; // O algún otro mensaje de error si el usuario no se encuentra
-}
 ?>
 
 <!DOCTYPE html>
@@ -65,7 +53,7 @@ if ($result->num_rows > 0) {
                         <section class="section-md bg-periglacial-blue text-center">
                             <div class="image-wrap-inner">
                                 <img src="./image/user.webp" alt="" style="border-radius: 50%; width: 200px;">
-                                <h4><?php echo htmlspecialchars($nombre); ?></h4>
+                                <h4><?php echo htmlspecialchars($_SESSION['usuario']); ?></h4>
                             </div>
                             <div class="p text-width-medium">
                                 <h1 class="page-title-header" style="color: black; padding: 10px; margin: 10px;">¡Bienvenidos a BarberApp!</h1>
